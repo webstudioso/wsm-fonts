@@ -1,6 +1,6 @@
  # Webstudio Fonts Module
 
-This module adds custom fonts to web apps built with `Webstudio`
+This module adds custom fonts to web apps built with [Webstudio](https://webstudio.so)
 
  ![Webstudio Module Fonts](https://github.com/webstudioso/wsm-fonts/actions/workflows/production.yml/badge.svg)
 
