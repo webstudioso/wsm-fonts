@@ -11,13 +11,13 @@ export const addFonts = (editor) => {
     const styleManager = editor.StyleManager;
     const fontProperty = styleManager.getProperty('typography', 'font-family');
     fontProperty.set('options', [
-        {id: "'Open Sans', sans-serif", label: 'Open Sans'},
-        {id: "'Montserrat', sans-serif", label: 'Montserrat'},
         ...fontProperty.get('options'),
         {id: "'Strasua', sans-serif", label: 'Strasua'},
         {id: "'Good Times Rg', sans-serif", label: 'Good Times'},
         {id: "'Pirulen Rg', sans-serif", label: 'Pirulen'},
         {id: "'Abril Fatface', sans-serif", label: 'Abril Fatface'},
+        {id: "'Open Sans', sans-serif", label: 'Open Sans'},
+        {id: "'Montserrat', sans-serif", label: 'Montserrat'},
     ])
 }
 

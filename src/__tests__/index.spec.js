@@ -20,14 +20,14 @@ describe("Fonts plugin", () => {
     describe("addFonts", () => {
         it("Adds custom fonts to style manager", () => {
             const expected = [
-              {"id": "'Open Sans', sans-serif", "label": "Open Sans"},
-              {"id": "'Montserrat', sans-serif", "label": "Montserrat"},
               {"id": "a", "label": "A"}, 
               {"id": "b", "label": "B"}, 
               {"id": "'Strasua', sans-serif", "label": "Strasua"}, 
               {"id": "'Good Times Rg', sans-serif", "label": "Good Times"}, 
               {"id": "'Pirulen Rg', sans-serif", "label": "Pirulen"},
               {"id": "'Abril Fatface', sans-serif", "label": "Abril Fatface"},
+              {"id": "'Open Sans', sans-serif", "label": "Open Sans"},
+              {"id": "'Montserrat', sans-serif", "label": "Montserrat"},
             ]
             const set = jest.fn()
             const editor = {
